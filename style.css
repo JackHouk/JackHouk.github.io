@@ -215,6 +215,30 @@ ul{
     width: 60%;
 }
 
+    .directory{
+    display: flex;
+    align-items: center;
+}
+
+    #botNav{
+        display: flex;
+        flex-direction: row;
+        
+    }
+    
+    .botLi{
+        flex-direction: row;
+        color: white;
+        list-style-image: none;
+        list-style-type: none;
+    }
+    
+    #espressoPic{
+        max-width: 40%;
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+
 @media only screen and (max-width: 1000px)
 {
     
