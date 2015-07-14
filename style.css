@@ -220,10 +220,15 @@ ul{
     align-items: center;
 }
 
-    #botNav{
+    .botnav{
         display: flex;
         flex-direction: row;
         
+    }
+
+    .botnav li{
+	list-style-type: none;
+	list-style-image: none;
     }
     
     .botLi{
